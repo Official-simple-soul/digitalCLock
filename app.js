@@ -33,5 +33,5 @@ setInterval(function(){
     if(sec < 10) {
         sec = '0' + sec;
     }
-    digitalClock.innerHTML = hr +' : '+ min +' : '+ sec +' : '+ day;
+    digitalClock.innerHTML = hr +' : '+ min +' : '+ sec +' : '+  day;
 })

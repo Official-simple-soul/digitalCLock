@@ -2,6 +2,7 @@ const digitalClock = document.querySelector(".hour");
 let clockText = document.querySelector('.text')
 
 setInterval(function(){
+    
     let time = new Date();
     let sec = time.getSeconds();
     let min = time.getMinutes();
